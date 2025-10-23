@@ -3,33 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Metric/Imperial Unit Conversion</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
-    <h1>Metric/ Imperial Unit Conversion</h1>
-    <div id="unit">
-        <input type="number" id="unit-input" placeholder="Enter a number" />
-    </div>
-    <button id="convert-btn">Convert</button>
+      <h1>Metric/ Imperial Unit Conversion</h1>
+      <div id="unit">
+        <input type="number" id="unit-input" placeholder="" />
+      </div>
+      <button id="convert-btn">Convert</button>
     </header>
-    <div id="container">
-        <div>
-            <h2>Length (Meters/Feet)</h2>
-            <input type="number" id="length-input" placeholder="Enter length" />
-            <p id="length-output"></p>
-        </div>
-    
-        <div>
-            <h2>Volume (Liters/Gallons)</h2>
-            <input type="number" id="volume-input" placeholder="Enter volume" />
-            <p id="volume-output"></p>
-        </div>
-    
-        <div>
-            <h2>Mass (Kilograms/Pounds)</h2>
-            <input type="number" id="mass-input" placeholder="Enter mass" />
-    </div>
+
+    <main id="container">
+      <div class="converter-card" id="length-card">
+        <h2>Length (Meters/Feet)</h2>
+        <p id="length-result"></p>
+      </div>
+
+      <div class="converter-card" id="volume-card">
+        <h2>Volume (Liters/Gallons)</h2>
+        <p id="volume-result"></p>
+      </div>
+
+      <div class="converter-card" id="mass-card">
+        <h2>Mass (Kilograms/Pounds)</h2>
+        <p id="mass-result"></p>
+      </div>
+    </main>
   </body>
 </html>
