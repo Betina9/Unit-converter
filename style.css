@@ -58,26 +58,34 @@ h1 {
   margin-top: -1px;
 }
 #container {
-  margin-top: 100px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-converter-card {
-  background-color: #ffffff;
+.converter-card {
+  background-color: #dcdbe3;
   width: 90%;
   max-width: 500px;
   border-radius: 10px;
+  border: 1px solid #dcdbe3;
   padding: 20px;
-  margin: 20px 0;
+  margin-bottom: 0 auto 20px auto;
+  margin: 0 0 30px 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  text-align: left;
 }
 .converter-card h2 {
   color: #5a537b;
 }
 .converter-card p {
-  color: #353535;
+  color: #333333;
+  font-size: 1.2rem;
+  min-height: 1.5em;
 }
