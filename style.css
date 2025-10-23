@@ -89,3 +89,27 @@ input::-webkit-inner-spin-button {
   font-size: 1.2rem;
   min-height: 1.5em;
 }
+
+body.dark-mode {
+  background-color: ;
+  color: ;
+}
+body.dark-mode header {
+  background-color: ;
+}
+body.dark-mode .converter-card {
+  background-color: ;
+  border-color: ;
+  box-shadow: ;
+}
+body.dark-mode input,
+body.dark-mode #unit-input {
+  background-color: ;
+  color: ;
+  border-color: ;
+}
+body.dark-mode #convert-btn,
+body.dark-mode #toggle-mode {
+  background-color: ;
+  color: ;
+}

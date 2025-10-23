@@ -4,6 +4,7 @@ const inputEl = document.getElementById("unit-input");
 const lengthResult = document.getElementById("length-result");
 const volumResult = document.getElementById("volum-result");
 const massResult = document.getElementById("mass-result");
+const toggleBtn = document.getElementById("toggle-mode");
 
 // Når brukeren klikker på knappen "Convert":
 convertBtn.addEventListener("click", function () {
@@ -51,5 +52,16 @@ convertBtn.addEventListener("click", function () {
 inputEl.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     convertBtn.click();
+  }
+});
+
+// Mørk modus funksjonalitet
+toggleBtn.addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    toggleBtn.textContent = "☀️ Light Mode";
+  } else {
+    toggleBtn.textContent = "🌙 Dark Mode";
   }
 });
