@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #696387;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+header {
+  background-color: #6943ff;
+  color: #fdfcff;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0px;
+}
+h1 {
+  font-size: 2.8rem;
+}
+#convert-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
