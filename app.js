@@ -47,3 +47,9 @@ convertBtn.addEventListener("click", function () {
     kilosToPounds
   )} pounds | ${value} pounds = ${roundDown(poundsToKilos)} kilos`;
 });
+
+inputEl.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    convertBtn.click();
+  }
+});
