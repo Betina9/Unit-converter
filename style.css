@@ -89,6 +89,17 @@ input::-webkit-inner-spin-button {
   font-size: 1.2rem;
   min-height: 1.5em;
 }
+#toggle-mode {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  border: 2px solid #fdfcff;
+  border-radius: 5px;
+  background-color: #6943ff;
+  color: #fdfcff;
+  cursor: pointer;
+}
 
 body.dark-mode {
   background-color: #1f2937;
@@ -120,4 +131,15 @@ body.dark-mode #convert-btn,
 body.dark-mode #toggle-mode {
   background-color: #ffffff;
   color: black;
+}
+body.dark-mode #toggle-mode {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  border: 2px solid #fdfcff;
+  border-radius: 5px;
+  background-color: #6943ff;
+  color: #fdfcff;
+  cursor: pointer;
 }
