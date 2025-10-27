@@ -91,25 +91,33 @@ input::-webkit-inner-spin-button {
 }
 
 body.dark-mode {
-  background-color: ;
-  color: ;
+  background-color: #1f2937;
+  color: #ffffff;
 }
 body.dark-mode header {
-  background-color: ;
+  background-color: #6943ff;
 }
 body.dark-mode .converter-card {
-  background-color: ;
-  border-color: ;
-  box-shadow: ;
+  background-color: #273549;
+  border-color: #394856;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 body.dark-mode input,
 body.dark-mode #unit-input {
-  background-color: ;
-  color: ;
-  border-color: ;
+  background-color: #6943ff;
+  color: #ffffff;
+  border-color: #8462ff;
+}
+body.dark-mode .converter-card h2 {
+  color: #b4ade5;
+}
+body.dark-mode .converter-card p {
+  color: #c0c4ca;
+  font-size: 1.2rem;
+  min-height: 1.5em;
 }
 body.dark-mode #convert-btn,
 body.dark-mode #toggle-mode {
-  background-color: ;
-  color: ;
+  background-color: #ffffff;
+  color: black;
 }
